@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "zfx-figure-library": {
+      "command": "node",
+      "args": [
+        "<figure-library-installation>/dist/index.js"
+      ],
+      "cwd": "<figure-library-installation>",
+      "tool_timeout_sec": 300
+    }
+  }
+}
