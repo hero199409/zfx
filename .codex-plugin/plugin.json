@@ -1,6 +1,6 @@
 {
   "name": "zfx",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "ZFX scientific drawing integrates Scientific Figure Library v0.2.0 with BioRender for reference-guided plots, biological schematics, and hybrid publication figures.",
   "author": {
     "name": "ZFX"
