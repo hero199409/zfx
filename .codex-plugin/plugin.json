@@ -1,24 +1,26 @@
 {
   "name": "zfx",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ZFX scientific drawing integrates Scientific Figure Library v0.2.0 with BioRender for reference-guided plots, biological schematics, and hybrid publication figures.",
   "author": {
     "name": "ZFX"
   },
+  "repository": "https://github.com/hero199409/zfx",
+  "license": "MIT",
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "apps": "./.app.json",
   "interface": {
-    "displayName": "ZFX绘图",
-    "shortDescription": "科研图参考检索、BioRender 机制图与投稿级混合绘图",
-    "longDescription": "整合 Scientific Figure Library v0.2.0 与 BioRender：检索和审查科研图参考，生成可编辑的生物机制图，并将定量面板与示意图组织为投稿级科学图形。",
+    "displayName": "ZFX Drawing",
+    "shortDescription": "Reference-guided scientific plots and BioRender mechanism figures",
+    "longDescription": "Coordinates Scientific Figure Library and BioRender to review scientific references, create editable mechanism figures, and assemble quantitative panels with schematics.",
     "developerName": "ZFX",
     "category": "Creativity",
     "capabilities": ["Interactive", "Write"],
     "defaultPrompt": [
-      "帮我设计一个数据图与机制图结合的投稿级科研图。",
-      "根据我的研究内容检索参考图并生成 BioRender 机制图。",
-      "把实验数据和生物通路整理成可编辑的多面板科学图。"
+      "Design a publication-ready figure combining data and mechanism panels.",
+      "Find reference figures for my research and create a BioRender mechanism figure.",
+      "Turn my experimental data and pathway into an editable multi-panel figure."
     ]
   }
 }

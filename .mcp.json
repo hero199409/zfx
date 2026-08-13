@@ -3,9 +3,9 @@
     "zfx-figure-library": {
       "command": "node",
       "args": [
-        "<figure-library-installation>/dist/index.js"
+        "./scripts/launch-figure-library.js"
       ],
-      "cwd": "<figure-library-installation>",
+      "cwd": ".",
       "tool_timeout_sec": 300
     }
   }
