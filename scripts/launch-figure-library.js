@@ -28,6 +28,8 @@ function addPluginCandidates(candidates, root) {
 function candidatePaths() {
   const candidates = [];
 
+  addCandidate(candidates, path.join(__dirname, "..", "vendor", "scientific-figure-library"));
+
   for (const key of [
     "ZFX_FIGURE_LIBRARY_MCP_PATH",
     "ZFX_FIGURE_LIBRARY_ROOT",
@@ -64,9 +66,9 @@ function candidatePaths() {
 const serverPath = candidatePaths().find((candidate) => fs.existsSync(candidate));
 
 if (!serverPath) {
-  console.error("ZFX: Scientific Figure Library was not found.");
+  console.error("ZFX: the bundled Scientific Figure Library runtime was not found.");
   console.error(
-    "Install Scientific Figure Library 0.2.0, or set ZFX_FIGURE_LIBRARY_MCP_PATH to its dist/index.js file.",
+    "Download the complete ZFX package, or set ZFX_FIGURE_LIBRARY_MCP_PATH to a compatible dist/index.js file.",
   );
   process.exit(1);
 }
